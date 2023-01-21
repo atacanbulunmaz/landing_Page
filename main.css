@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(42, 4, 4);
+    display: flex;
+
+
+
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*Navbar Section*/
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 170px;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1.5rem;
+
+
+}
+
+#navbar ul li a {
+    padding: 1.5rem;
+    color: #fff;
+}
+
+#navbar ul li a:hover {
+    background: wheat;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+/*Home Section*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+
+}
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/*Training*/
+#training {
+    width: 100%;
+    color: #fff;
+    padding: 1rem;
+
+}
+
+#training .items {
+    width: fit-contents;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#training .items .item:hover {
+    color: tomato;
+}
+
+/*Certificates*/
+#certificates {
+    color: #333;
+    padding: 1rem;
+
+}
+
+.certificates {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.certificates .certificate {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#py {
+    width: 100%;
+
+}
+
+#qty {
+    width: 100%;
+}
+
+#market {
+    width: 165%;
+}
+
+.certificates .certificate .certificate-info .title {
+    letter-spacing: 0.12rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0.25rem;
+
+}
+
+.certificates .certificate .certificate-info .description {
+    letter-spacing: 0.12rem;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+
+}
+
+.certificates .certificate .certificate-info .instructor {
+    letter-spacing: 0.12rem;
+    text-align: end;
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+/* Contact */
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
